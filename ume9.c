@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -9,8 +10,8 @@ int main()
     printf("nを入力\n");
     scanf("%d", &b);
 
-    int c = sqrt(a * a + b * b);
+    double c = sqrt(a * a + b * b);
 
-    printf("total = %d\n", c);
+    printf("total = %f\n", c);
     return 0;
 }

@@ -7,6 +7,6 @@ int main()
     printf("aを入力\n");
     scanf("%d", &a);
 
-    printf("%.2f\n", a - 128);
+    printf("%.2d\n", a - 128);
     return 0;
 }

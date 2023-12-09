@@ -7,12 +7,13 @@ int main()
     printf("aを入力\n");
     scanf("%d", &a);
 
-    printf("%.2f\n", a - 128);
-    if (a - 128 >= 15)
+    printf("%.2d\n", a - 128);
+    // 絶対値が15以上ならON、そうでなければOFF
+    if (a - 128 >= 15 || a - 128 <= -15)
     {
         printf("ON\n");
     }
-    else if (a - 128 < 15)
+    else
     {
         printf("OFF\n");
     }
